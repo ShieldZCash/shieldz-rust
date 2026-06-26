@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "shieldz"
+type: software
+authors:
+  - family-names: Yanbollu
+    given-names: Deniz
+    alias: dnzynbl
+repository-code: "https://github.com/ShieldZCash/shieldz-rust"
+url: "https://shieldz.cash"
+license: MIT
+version: 0.1.0
