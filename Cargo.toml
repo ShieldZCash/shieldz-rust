@@ -1,0 +1,21 @@
+[package]
+name = "shieldz"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Official Rust SDK for Shieldz — non-custodial crypto payments with $0 fees."
+license = "MIT"
+repository = "https://github.com/ShieldZCash/shieldz-rust"
+homepage = "https://shieldz.cash"
+documentation = "https://shieldz.cash/docs"
+readme = "README.md"
+keywords = ["crypto", "payments", "non-custodial", "stablecoin", "webhooks"]
+categories = ["api-bindings"]
+
+[dependencies]
+ureq = { version = "2", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+hmac = "0.12"
+sha2 = "0.10"
+hex = "0.4"
